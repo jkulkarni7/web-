@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+::selection {
+  color: red;
+  background: rgb(168, 167, 167);
+}
+p::first-line {
+  color: #ff0000;
+  font-variant: small-caps;
+}
+h1::first-letter {
+  color: #ff0000;
+  font-size: xx-large;
+}
+h2::before {
+  content: 'imp';
+  color: blueviolet;
+}
+h3::after {
+  content: "end";
+  color: deeppink;
+}
+::marker { 
+  color:green;
+  font-size: 23px;
+}
+</style>
+</head>
+<body>
+
+<h1>css Pseudo Elements</h1>
+<h2>for effects</h2>
+<h3>after</h3>
+<p>This is a paragraph.</p>
+<div>This is some text in a div element.</div>
+
+<ul>
+    <li>Java</li>
+    <li>c</li>
+    <li>cpp</li>
+  </ul>
+  
+  <ol>
+    <li>core</li>
+    <li>adv</li>
+    <li>framework</li>
+  </ol>
+</body>
+</html>
