@@ -1,0 +1,7 @@
+I.Q. What is bootstrap?
+Ans: 1. B is a open source , front- end framework
+2. it is css based
+3. responsive web sites [ also mobile websites].
+4. 
+
+grid structure in bootstrap
